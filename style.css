@@ -1,7 +1,8 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 0 auto;
+  text-align:center;
 }
 h1{
   text-align: center;
@@ -12,7 +13,8 @@ image{
   display: block;
 }
 #id2{
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   background: grey;
   text-align: center;
   margin:20px auto;
@@ -22,15 +24,13 @@ figcaption{
 }
 #featured-property p{
   width: 800px;
-  margin:20 px auto;
+  margin: 0 auto;
   text-align: center;
 }
 #details div{
   float: left;
-}
-#bottom div{
   background-color:red;
   text-align: center;
   width:25%;
-
 }
+
